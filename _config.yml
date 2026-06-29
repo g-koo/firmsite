@@ -40,7 +40,7 @@ collections:
   - posts
 
 baseurl: "/firmsite" # the subpath of your site, e.g. /blog
-# url: "https://g-koo.github.io/firmsite" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://g-koo.github.io/firmsite" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
