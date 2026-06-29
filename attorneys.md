@@ -14,7 +14,6 @@ title: Attorneys
 		  		</div>
 				<ul class="list-group list-group-flush">
 				    <li class="list-group-item">Email: {{ attorney.email }}</li>
-				    # <li class="list-group-item">Call: {{ attorney.phone }}</li>
 				</ul>
 		  </div>
 	{% endfor %}
