@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+description: Learn about Gary Koo’s approach to protecting business growth, intellectual property, and market position through focused, strategic legal counsel.
 ---
 
 # About The Firm

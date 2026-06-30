@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Attorneys
+description: Meet the attorneys at Gary Koo’s firm and learn about their experience in business law, intellectual property, and complex disputes.
 ---
 
 # Attorneys

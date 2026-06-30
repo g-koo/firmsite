@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Practice Areas
+description: Explore Gary Koo’s practice areas, including business transactions, intellectual property protection, and high-stakes commercial dispute matters.
 ---
 
 # Practice Areas
