@@ -2,51 +2,7 @@
 // As example you can start by importing the _bootswatch.scss file from one of the
 // theme provided by https://bootswatch.com .
 
-.masthead {
-  display: flex;
-  align-items: center;
-}
 
-.masthead .container,
-.masthead .row,
-.masthead .col-12 {
-  height: auto;
-}
-
-a,
-a:hover,
-a:focus,
-a:active,
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:active,
-.text-info,
-.text-info:hover,
-.text-info:focus,
-.text-info:active {
-  color: #1F4E79 !important;
-}
-
-.btn-darker,
-.btn-darker:hover,
-.btn-darker:focus,
-.btn-darker:active {
-  color: #A67C52 !important;
-  background-color: #1F4E79 !important;
-}
-
-a:hover,
-a:focus,
-a:active,
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:active,
-.text-info:hover,
-.text-info:focus,
-.text-info:active {
-  color: #16324F !important;
-}
 
 @media (max-width: 767.98px) {
   .masthead {
