@@ -5,7 +5,7 @@ description: Meet the attorneys at Gary Koo’s firm and learn about their exper
 ---
 
 # Attorneys
-<div class="card-deck">
+<div class="card-deck justify-content-center">
 	{% for attorney in site.data.attorneys %}
 		  <div class="card my-3" style="min-width: 30%;">
 		  		<div class="card-body">

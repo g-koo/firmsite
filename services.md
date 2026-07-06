@@ -6,7 +6,7 @@ description: Explore Gary Koo’s practice areas, including business transaction
 
 # Practice Areas
 
-<div class="">
+<div class="d-flex flex-column align-items-center">
 	{% for service in site.data.services %}
 		<div class="card my-3">
 		  	<div class="card-body">
