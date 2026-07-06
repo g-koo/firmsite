@@ -6,48 +6,9 @@
 // Some customization of the container class to have a better display in the guide.
 // Don't hesitate to remove it to have a standard Bootstrap behavior
 
-.btn-darker { 
-  color: #A67C52; 
-  background-color: #1F4E79; 
-  border-color: #A67C52; 
-} 
- 
-.btn-darker:hover, 
-.btn-darker:focus, 
-.btn-darker:active, 
-.btn-darker.active, 
-.open .dropdown-toggle.btn-darker { 
-  color: #7A4F2B; 
-  background-color: #16324F; 
-  border-color: #7A4F2B; 
-} 
- 
-.btn-darker:active, 
-.btn-darker.active, 
-.open .dropdown-toggle.btn-darker { 
-  background-image: none; 
-} 
- 
-.btn-darker.disabled, 
-.btn-darker[disabled], 
-fieldset[disabled] .btn-darker, 
-.btn-darker.disabled:hover, 
-.btn-darker[disabled]:hover, 
-fieldset[disabled] .btn-darker:hover, 
-.btn-darker.disabled:focus, 
-.btn-darker[disabled]:focus, 
-fieldset[disabled] .btn-darker:focus, 
-.btn-darker.disabled:active, 
-.btn-darker[disabled]:active, 
-fieldset[disabled] .btn-darker:active, 
-.btn-darker.disabled.active, 
-.btn-darker[disabled].active, 
-fieldset[disabled] .btn-darker.active { 
-  background-color: #1F4E79; 
-  border-color: #FFFFFF; 
-} 
- 
-.btn-darker .badge { 
-  color: #1F4E79; 
-  background-color: #FFFFFF; 
-}
+$container-max-widths: (
+  sm: 540px,
+  md: 640px,
+  lg: 690px,
+  xl: 720px
+) !default;
