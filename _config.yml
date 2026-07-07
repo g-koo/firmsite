@@ -38,6 +38,9 @@ repository: "nicolas-van/bootstrap-4-github-pages"
 # Favicon
 favicon_image: /assets/images/Favicon.png
 
+# Formspree Endpoint
+formspree_endpoint: "https://formspree.io/f/mnqvkwqv"
+
 # Logo
 logo_image: /assets/images/Logo.png
 
