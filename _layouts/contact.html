@@ -15,35 +15,47 @@
               <div class="card-body p-4 p-md-5">
                 <h1 class="h2 mb-4">{{ page.title | default: 'Contact' }}</h1>
                 <p class="text-muted mb-4">{{ page.description | default: 'Tell us about your matter and we will get back to you shortly.' }}</p>
+                <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  /* paste this line in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  /* customize formbutton below*/     
+  formbutton("create", {
+    action: "{{ site.formspree_endpoint }}",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "name", 
+        label: "Name:", 
+        name: "name",
+        required: true,
+        placeholder: "Your Name"
+      },
+      { 
+        type: "company", 
+        label: "Company:", 
+        name: "company",
+        placeholder: "Your Company"
+      },
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        required: true,
+        placeholder: "How can we help?",
+      },
+      { type: "submit" }      
+    ],
 
-                <form action="{{ site.formspree_endpoint }}" method="POST">
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="company">Company</label>
-                    <input type="text" class="form-control" id="company" name="company">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" class="form-control" id="phone" name="phone">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                  </div>
-
-                  <button type="submit" class="btn btn-darker mt-3">Send Message</button>
-                </form>
+  });
+</script>
               </div>
             </div>
           </div>
